@@ -1,0 +1,15 @@
+/*criar um algoritmo que leia uma lista e retorne duas lista novas lista */
+
+let listaNumeros =[1,2,3,4,5,6,7,8,9];
+let pares=[];
+let impares=[];
+
+for(let numero of listaNumeros){
+if (numero % 2==0){
+    pares.push(numero)
+}else{
+    impares.push(numero)
+ }
+}
+console.log(pares);
+console.log(impares);
