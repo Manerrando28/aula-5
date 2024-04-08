@@ -39,3 +39,17 @@ while(sorteio.length <6){
     }
 sorteio.sort((a,b)=>a-b);
 console.log(sorteio);
+
+//destribuicao
+
+const usuario ={
+    nome:"sao paulo",
+    idade: 20
+};
+
+//sem desestruturacao
+console.log(`nome e local: ${usuario.nome} ${usuario.local}`);
+
+//com desestruturacao
+let{nome,local}= usuario;
+ console.log(`${nome} ${local}`);
