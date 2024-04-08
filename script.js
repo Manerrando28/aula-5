@@ -13,3 +13,15 @@ if (numero % 2==0){
 }
 console.log(pares);
 console.log(impares);
+/*com uma lista de alunos (objetos) vamos percorrer cada aluno e trazer a media do aluno e sua medida*/
+const listaAlunos=[
+    {nome:"Hunguinho",notas:[5,7]},
+    {nome:"Zezinho",notas:[7,8]},
+    {nome:"Luizinho",notas:[7,8]}
+];
+
+for(aluno of listaAlunos){
+    let media =(aluno.notas[0] + aluno.notas [1])/2;
+    console.log(`A media do aluno ${aluno.nome} e ${media}`);
+  
+}
