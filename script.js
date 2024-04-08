@@ -53,3 +53,12 @@ console.log(`nome e local: ${usuario.nome} ${usuario.local}`);
 //com desestruturacao
 let{nome,local}= usuario;
  console.log(`${nome} ${local}`);
+
+ //arrow fuction
+
+ let items=["fusca","belina","gurgel","brasilia","kombi"];
+ items.forEach(function(items){
+    console.log(items)
+}) 
+let items1=["fusca","belina","gurgel","brasilia","kombi"];
+ items.forEach(items1 =>console.log(items1))
